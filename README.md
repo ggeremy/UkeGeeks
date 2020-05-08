@@ -1,7 +1,7 @@
 # UkeGeeks-ng
 
-![Ukegeeks-ng](./img/screenshot.png)
-![Ukegeeks-ng song](./img/screenshot2b.png)
+![Ukegeeks-ng](./app/img/screenshot.png)
+![Ukegeeks-ng song](./app/img/screenshot2b.png)
 
 This is an attempt at an *enhanced/updated/modified/edited_to_fits_my_needs* version of UkeGeeks    
 (since the original doesn't seems to accept pull request since early 2015).
