@@ -37,6 +37,9 @@ RUN	\
     && ln -sf /dev/stderr /var/log/apache2/error.log \
     && chown www-data:www-data ${PHP_DATA_DIR} -Rf
 
+RUN groupmod -o -g 100 www-data
+RUN usermod -o -u 1024 www-data
+
 COPY entrypoint.sh /sbin/entrypoint.sh
 RUN  chmod 755 /sbin/entrypoint.sh
 
